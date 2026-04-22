@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    background-image: url(/img/main-background.jpg);
+    background-size: cover;
+    color: white; 
+}
+h1{
+    font-family: sans-serif;
+}
+p{
+    width: 90%;
+    margin: auto ;
+}
+nav{
+    background-color: rgb(0, 14, 83);
+    color: white;
+    padding:  10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    border-radius: 5px;
+    margin: 5px 1% ;
+}
+
+
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.nav-links a:hover{
+    background-color: rgb(255, 251, 0);
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a{
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    font-weight: 700;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+img{
+    height: 200px;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(0, 14, 83);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: sans-serif;
+}
+footer:hover .map-container{
+  display: flex;
+} 
+
+ul{
+    list-style: none;
+}
+
+.singer{
+    flex-direction: column;
+}
+
+figure{
+    background-color: rgb(57, 70, 134);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+figcaption{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+figure:hover{
+    transform: scale(1.1) rotate(5deg);
+    background-color: rgb(255, 251, 0);
+    color: black;
+}
+
+.map-container{
+  justify-content: space-between; 
+  align-items: center;
+  width: 40%; 
+  border: 1ps solid red;
+  text-align: left;
+  font-weight: 100;
+  display: none;
+}
+.map-container ul, .map-container ol {
+  list-style: none;
+}
+.map-container h4 {
+  margin-bottom: 5px;
+}
+.map-container a:hover{
+  color: yellow;
+}
+footer p{
+  font-size: 10px; 
+}
+
+.artist-page{
+  color: yellow;
+}
+
