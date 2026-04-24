@@ -161,6 +161,7 @@ article {
     display: flex ;
     flex-direction: column;
     align-items: center;
+    transition: 0.5s ease;
 }
 article figure {
     display: flex;
@@ -185,13 +186,24 @@ article figcaption {
     color: #000000;
 }   
 button {
-    color: black;
+    color: rgb(233, 233, 233);
     border: none;
-    padding: 5px;
+    padding: 5px 15px;
     margin-bottom: 15px;
     border: 3px solid black;
     cursor: pointer;
     font-family: 'Rye', cursive;
     font-weight: 100;
-    transition: background-color 0.3s ease;
+    border-radius: 20px; 
+    transition: 0.3s ease;
+    background-image: url(img/265_blue\ siding\ wood\ texture-seamless.jpg);
+    letter-spacing: 1px;
+}
+button:hover{
+    box-shadow: 5px 5px 0px 0px #000000;
+    transform: scale(1.1);
+}
+button:active {
+    box-shadow: none;
+    transform: scale(1);
 }
