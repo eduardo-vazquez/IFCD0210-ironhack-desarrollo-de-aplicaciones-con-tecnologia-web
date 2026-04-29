@@ -138,7 +138,7 @@ section {
 }
 
 @keyframes ball{
-    from {
+    0% {
         z-index: 0;
         bottom: 5dvh;
     }
@@ -167,7 +167,7 @@ section {
         height: 20px;
     }
 
-    to {
+    100% {
         bottom: 5dvh;
         left: 60vw;
         z-index: 2;
