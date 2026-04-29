@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    background: #f5f5f5;
+}
+
+#background {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/looney_tunes.jpg) no-repeat center center/cover;
+    z-index: -1;
+    animation: fadeIn 5s ease-in-out infinite alternate;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 45, 169), rgb(132, 146, 188));
+    padding: 20px 100px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Bangers", cursive;
+    z-index: 3;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.cuadro {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    margin: 20px;
+    margin-top: 32dvh;
+    animation: circuloacuadro 1s forwards ease;
+
+}
+
+.cuadro:hover {
+    animation: cuadroacirculo 1s forwards ease;
+}
+
+@keyframes cuadroacirculo {
+    from {
+        border-radius: 0;
+        background-color: black;
+
+    }
+
+    to {
+        border-radius: 50%;
+        background-color: white;
+    }
+}
+
+@keyframes circuloacuadro {
+    from {
+        border-radius: 50%;
+        background-color: white;
+
+    }
+
+    to {
+        border-radius: 0;
+        background-color: black;
+    }
+}
+
+/* section:first-of-type{
+    display: none;
+} */
+.animacion-pelota{
+    background: url(img/loneytoons-background.jpeg);
+    background-size: 100%;
+    background-position: bottom;
+    height: 50dvh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+#suelo {
+    width: 100vw;
+    height: 14dvh;
+    margin-top: 30dvh;
+    background-color: brown;
+    background: url(img/loneytoons-background.jpeg);
+    background-size: 100%;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.animacion-pelota:hover #pelota {
+    animation: ball 2s infinite ease;
+
+}
+#pelota {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 94, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0dvh;
+    left: 38vw;
+    z-index: 1;
+}
+
+@keyframes ball{
+    from {
+        z-index: 0;
+        bottom: 5dvh;
+    }
+    50% {
+        z-index: 2;
+        bottom: 20dvh;
+        height: 80px;
+        width: 50px;
+    }
+    70% {
+        height: 50px;
+    }
+
+    73% {
+
+        bottom: 5dvh;
+    }
+
+    75% {
+        width: 80px;
+        height: 30px;
+
+    }
+    80% {
+        width: 100px;
+        height: 20px;
+    }
+
+    to {
+        bottom: 5dvh;
+        left: 60vw;
+        z-index: 2;
+    }
+}
+
+.roadrunner-container{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    position: relative ;
+}
+.roadrunner{
+    position: absolute;
+    bottom: 0;
+    left: -200px;
+    height: 150px;
+}
+.coyote{
+    height: 200px;
+    position: absolute;
+    left: 30vw;
+}
+.roadrunner-container:hover .roadrunner{
+    animation: roadrunner 2s 1 ease;
+
+}
+
+
+@keyframes roadrunner {
+    from {
+        left: -200px;
+    }
+    to {
+        left: calc(100vw + 200px)
+    }
+}
