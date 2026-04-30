@@ -1,5 +1,8 @@
 # RECURSOS DEL CURSO
-Recopilacion de paginas que se fueron viendo durante el curso 
+Recopilacion de paginas que se fueron viendo durante el curso
+
+## PAGINA DEL PROFE donde ira subiendo codigos de las clases
+https://github.com/AlbertIron2026
 
 ## PAGINAS DE CONSULTA
 https://www.w3schools.com
