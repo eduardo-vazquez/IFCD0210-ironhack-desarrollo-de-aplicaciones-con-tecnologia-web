@@ -15,8 +15,8 @@ https://kahoot.it
 ## Pagina para aprender GIT de manera visual
 https://learngitbranching.js.org/?locale=es_ES
 
-## Ranita para practicar flexbox
-https://flexboxfroggy.com/#es
+## Pagina de Gift Animados
+https://www.gifsanimados.org
 
 ## Foro para buscar problemas de programacion - INGLES 
 https://stackoverflow.com
@@ -27,6 +27,11 @@ https://fontawesome.com
 ## Chuleta de Fletbox
 https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png
 
+## CAÑONES para practicar display flex
+http://www.flexboxdefense.com
+
+## RANITA para practicar flexbox
+https://flexboxfroggy.com/#es
 
 
 
