@@ -27,7 +27,7 @@ https://unsplash.com/es
 ### Foro para buscar problemas de programacion - INGLES 
 https://stackoverflow.com
 
-### Pagina de Iconos 
+### ICONOS 
 https://fontawesome.com
 
 ### Chuleta de Fletbox
@@ -39,9 +39,9 @@ http://www.flexboxdefense.com
 ### RANITA para practicar flexbox
 https://flexboxfroggy.com/#es
 
-
-
-## OTROS RECURSOS#################################################################
+###################
+## OTROS RECURSOS
+###################
 
 ### Para BOTONES
 https://getcssscan.com/css-buttons-examples
@@ -49,12 +49,13 @@ https://getcssscan.com/css-buttons-examples
 ### Para aprender CSS
 https://lenguajecss.com
 
-### Cursos 
+### Curso
 https://www.codecademy.com
 
-
-## LIBROS #########################################################################
-
+############
+## LIBROS 
+############
+### Introducción a XHTML
 https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf
 
 
