@@ -42,6 +42,9 @@ https://flexboxfroggy.com/#es
 ### PAGINA para ver ejemplos creativos
 https://www.creativosonline.org
 
+#### ejemplos de formularios que mostro el profe
+https://www.creativosonline.org/formularios-css-html.html
+
 ### PAGINA para ver ejemplos creativos
 https://uicookies.com
 
