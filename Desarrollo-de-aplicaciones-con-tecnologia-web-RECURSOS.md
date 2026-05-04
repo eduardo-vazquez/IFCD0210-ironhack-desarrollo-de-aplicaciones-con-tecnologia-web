@@ -39,8 +39,11 @@ http://www.flexboxdefense.com
 ### RANITA para practicar flexbox
 https://flexboxfroggy.com/#es
 
+### PAGINA para ver ejemplos creativos
+https://www.creativosonline.org
 
-
+### PAGINA para ver ejemplos creativos
+https://uicookies.com
 
 ## OTROS RECURSOS
 
@@ -64,5 +67,5 @@ https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf
 
 ---
 *Recopilación creada por: [Eduardo Vazquez](https://www.eduardo-vazquez.com)*  
-*Última actualización: 2026-04-30*  
+*Última actualización: 2026-05-04*  
 *Curso: IFCD0210-ironhack-desarrollo-de-aplicaciones-con-tecnologia-web*

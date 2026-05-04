@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #131314;
+    color: white;
+    width: 100vw;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    margin: 50px;
+    border: 2px solid red;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.composicion {
+    border: 5px solid #EA3323;
+    display: flex;
+    width: 80vw;
+    aspect-ratio: 2;
+}
+
+.composicion div{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.composicion1{
+}
+
+.composicion div:nth-child(1) {
+    background-color: #58B99D;
+}
+.composicion div:nth-child(2) {
+    background-color: #5196D5;
+}
+.composicion div:nth-child(3) {
+    background-color: #925CB1;
+}
+.composicion div:nth-child(4) {
+    background-color: #38485C;
+}
+.composicion div:nth-child(5) {
+    background-color: #EAC645;
+}
+.composicion div:nth-child(6) {
+    background-color: #D8833A;
+}
+.composicion div:nth-child(7) {
+    background-color: #9B3F32;
+}
+.composicion div:nth-child(8) {
+    background-color: #BEC3C7;
+}
+.composicion div:nth-child(9) {
+    background-color: #65C97A;
+}
+.composicion div:nth-child(10) {
+    background-color:#4A9D86 ;
+}
