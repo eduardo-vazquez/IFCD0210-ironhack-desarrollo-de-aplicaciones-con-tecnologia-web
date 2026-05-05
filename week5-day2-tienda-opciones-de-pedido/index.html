@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Opciones de Pedidos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FUENTES    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Pizzeria La Pizza</h1>
+    </header>
+    <form action="recibido.html" method="get">
+        <fieldset class="fieldset-principal info-personal">
+            <legend class="main-legend">Informacion Personal</legend>
+            <label for="name" class="main-label">Nombre</label>
+            <div class="agrupar">
+                <select name="tratamiento" id="tratamiento">
+                    <option value="sr">Sr.</option>
+                    <option value="sra">Sra.</option>
+                    <option value="no-binario">N/B</option>
+                </select>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <label for="apellidos" class="main-label">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" required>
+
+            <label for="telefono" class="main-label">Telefono</label>
+            <div class="agrupar">
+                <select name="prefijo" id="prefijo">
+                    <option value="+34">+34</option>
+                    <option value="+35">+35</option>
+                </select>
+                <input type="number" name="telfono" id="telefono" required>
+
+            </div>
+        </fieldset>
+
+        <fieldset class="fieldset-principal">
+            <legend class="main-legend">Pedido</legend>
+            <fieldset class="fieldset-secundario">
+                <label for="tipo" class="main-label">Tipo de Pizza</label>
+                <select name="tipo" id="tipo">
+                    <option value="">--Seleccione un sabor--</option>
+                    <option value="muzzarela">Muzzarela</option>
+                    <option value="margarita">Margarita</option>
+                    <option value="vegetariana">Vegetariana</option>
+                    <option value="calabresa">Calabresa</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="fieldset-secundario">
+                <legend class="main-label">Ingredientes Extras</legend>
+                <input type="checkbox" name="aceitunas" id="aceitunas">
+                <label for="aceitunas">aceitunas</label>
+
+                <input type="checkbox" name="tomates" id="tomates">
+                <label for="tomates">tomates</label>
+
+                <input type="checkbox" name="queso" id="queso">
+                <label for="queso">queso</label>
+
+                <input type="checkbox" name="morrones" id="morrones">
+                <label for="queso">morrones</label>
+
+            </fieldset>
+
+            <fieldset class="fieldset-secundario">
+                <legend class="main-label">Entrega</legend>
+                <input type="radio" name="entrega" id="delivery">
+                <label for="delivery">delivery</label>
+
+                <input type="radio" name="entrega" id="retirar">
+                <label for="retirar">retirar en pizzeria</label>
+            </fieldset>
+
+            <label for="comentarios" class="main-label">Comentarios</label>
+            <textarea 
+                name="comentarios" 
+                id="comentarios"
+                maxlength="100">
+            </textarea>
+        </fieldset>
+        <button type="submit">Confirmar Pedido</button>
+
+    </form>
+</body>
+
+</html>

@@ -29,6 +29,10 @@ https://stackoverflow.com
 
 ### ICONOS 
 https://fontawesome.com
+https://fonts.google.com/icons
+
+### FUENTES
+https://fonts.google.com
 
 ### Chuleta de Fletbox
 https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png
@@ -48,10 +52,13 @@ https://www.creativosonline.org/formularios-css-html.html
 ### PAGINA para ver ejemplos creativos
 https://uicookies.com
 
-## OTROS RECURSOS
-
-### Para BOTONES
+### Pagina de Botones
 https://getcssscan.com/css-buttons-examples
+
+
+
+
+## OTROS RECURSOS
 
 ### Para aprender CSS
 https://lenguajecss.com
