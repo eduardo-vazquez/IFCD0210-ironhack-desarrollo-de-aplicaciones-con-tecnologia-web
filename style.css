@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --width: 300px;
+  --height: 350px;
+  --quantity: 6;
+}
+
+body {
+  background-size: cover;
+  background-position: center center;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  z-index: 1;
+  width: 80vw;
+  position: absolute;
+  top: 20px;
+  left: 10vw;
+  pointer-events: auto;
+  /* Permite clics en el panel */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+  font-family: "Audiowide", sans-serif;
+  ;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.me-pic {
+  width: 90px;
+  aspect-ratio: 1/1;
+  border-radius: 45px;
+}
+
+.scene {
+  width: 100vw;
+  height: 100dvh;
+  perspective: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  overflow: hidden;
+}
+
+.efecto {
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(to right,
+      white 0%,
+      white 5%,
+      transparent 20%,
+      transparent 80%,
+      white 95%,
+      white 100%);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.carousel {
+  width: var(--width);
+  height: var(--height);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s ease;
+  animation: autorun 50s linear infinite;
+  /* border: 1px solid red; */
+  pointer-events: none;
+}
+
+@keyframes autorun {
+  from {
+    transform: translateZ(300px) rotateY(0deg);
+  }
+
+  to {
+    transform: translateZ(300px) rotateY(360deg);
+  }
+}
+
+.item {
+  position: absolute;
+  inset: 0;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  backface-visibility: hidden;
+  pointer-events: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 2;
+
+  /* Here´s the MAGIC */
+  transform:
+    rotateY(calc(var(--i) * (360deg / var(--quantity)) + 180deg)) translateZ(-450px)
+}
+
+.item:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.605);
+}
+
+.click-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  /* Por encima del iframe */
+  cursor: pointer;
+}
+
+.mini-pagina {
+  /* Calculos para que la mini pagina se vea bien */
+  width: calc(var(--width) * 5);
+  height: calc(var(--height) * 5);
+  transform: scale(0.2);
+
+  transform-origin: top left;
+  border: none;
+  pointer-events: none;
+}
+
+
+footer {
+  width: 20vw;
+  position: absolute;
+  bottom: 20px;
+  left: 40vw;
+  pointer-events: auto;
+  /* Permite clics en el panel */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Audiowide", sans-serif;
+  ;
+  box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.3);
+}
+
+.social-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.social-link:hover {
+  font-weight: bold;
+}
