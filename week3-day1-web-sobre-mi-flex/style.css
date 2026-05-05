@@ -1,19 +1,99 @@
-*{
+:root {
+    --accent: #00d2ff;
+    --bg: #0a0a0a;
+    --card-bg: #161616;
+    --text: #e0e0e0;
+    --background-accent: rgba(89, 89, 89, 0.8); 
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: black;
-    color: white;
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--background-accent);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 15px 10vw;
+}
+
+header h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5rem;
 }
 
 .pic {
-    width: 100px;
-    aspect-ratio: 1/1;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+}
+
+main {
+    padding: 60px 10%;
+}
+
+.about-me {
+    margin-bottom: 80px;
+}
+
+.about-me h2 {
+    font-family: 'Audiowide', cursive;
+    margin-bottom: 10px;
+}
+
+.text-block {
+    background: var(--background-accent);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+.hobbies-main, .mascotas-main {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card {
+    background: var(--background-accent);
+    flex: 1;
+    min-width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-info {
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.5;
+    font-size: 0.8rem;
 }
