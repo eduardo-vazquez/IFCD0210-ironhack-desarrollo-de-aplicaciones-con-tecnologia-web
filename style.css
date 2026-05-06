@@ -16,6 +16,8 @@ body {
   height: 100dvh;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -139,7 +141,6 @@ footer {
   bottom: 20px;
   left: 40vw;
   pointer-events: auto;
-  /* Permite clics en el panel */
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 30px;
   border-radius: 50px;
@@ -160,3 +161,4 @@ footer {
 .social-link:hover {
   font-weight: bold;
 }
+

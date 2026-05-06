@@ -55,7 +55,8 @@ https://uicookies.com
 ### Pagina de Botones
 https://getcssscan.com/css-buttons-examples
 
-
+### PARA ENVIAR EL FORMULARIO POR MAIL  
+https://formsubmit.co
 
 
 ## OTROS RECURSOS
@@ -77,5 +78,5 @@ https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf
 
 ---
 *Recopilación creada por: [Eduardo Vazquez](https://www.eduardo-vazquez.com)*  
-*Última actualización: 2026-05-04*  
+*Última actualización: 2026-05-06*  
 *Curso: IFCD0210-ironhack-desarrollo-de-aplicaciones-con-tecnologia-web*
