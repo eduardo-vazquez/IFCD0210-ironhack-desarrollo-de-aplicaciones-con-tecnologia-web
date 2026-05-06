@@ -8,6 +8,7 @@
   --width: 300px;
   --height: 350px;
   --quantity: 6;
+  --operture: 500px
 }
 
 body {
@@ -61,8 +62,8 @@ header {
   height: 100%;
   background: linear-gradient(to right,
       white 0%,
-      white 5%,
-      transparent 20%,
+      white 10%,
+      transparent 30%,
       transparent 80%,
       white 95%,
       white 100%);
@@ -85,11 +86,11 @@ header {
 
 @keyframes autorun {
   from {
-    transform: translateZ(300px) rotateY(0deg);
+    transform: translateZ(var(--operture)) rotateY(0deg);
   }
 
   to {
-    transform: translateZ(300px) rotateY(360deg);
+    transform: translateZ(var(--operture)) rotateY(360deg);
   }
 }
 
@@ -211,4 +212,22 @@ textarea{
 }
 .btn-enviar:hover{
   box-shadow: 0 0 10px gray;
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    height: 120dvh;
+  }
+  header{
+    justify-content: center;
+  }
+  .secondary-title{
+    display: none;
+  }
+  footer{
+    height: 250px;
+    width: 90vw;
+    left: 5vw;
+    bottom: -20vw;
+  }
 }
