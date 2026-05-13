@@ -66,6 +66,10 @@ https://info.cern.ch/hypertext/WWW/TheProject.html
 ### Para aprender CSS
 https://lenguajecss.com
 
+### CURSO GRATUITO PARA PRACTICAR JAVASCRIPT
+Alba: Compis os paso este “curso” gratuito, es más para practicar que otra cosa: 
+https://www.codecademy.com/courses/learn-javascript-fundamentals/lessons/introduction-to-javascript/exercises/intro
+
 ### Curso
 https://www.codecademy.com
 
