@@ -58,7 +58,7 @@ https://getcssscan.com/css-buttons-examples
 ### PARA ENVIAR EL FORMULARIO POR MAIL  
 https://formsubmit.co
 
-### PRIMERA PAGINA WEB 
+### PRIMERA PAGINA WEB DE LA HISTORIA
 https://info.cern.ch/hypertext/WWW/TheProject.html
 
 ## OTROS RECURSOS
@@ -70,10 +70,14 @@ https://lenguajecss.com
 Alba: Compis os paso este “curso” gratuito, es más para practicar que otra cosa: 
 https://www.codecademy.com/courses/learn-javascript-fundamentals/lessons/introduction-to-javascript/exercises/intro
 
+### PAGINA PARA DEBUGEAR Y VER COMO FUNCIONA EL CODIGO
+https://pythontutor.com
+
+
+
+
 ### Curso
 https://www.codecademy.com
-
-
 
 ## LIBROS 
 ### Introducción a XHTML
@@ -84,5 +88,5 @@ https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf
 
 ---
 *Recopilación creada por: [Eduardo Vazquez](https://www.eduardo-vazquez.com)*  
-*Última actualización: 2026-05-06*  
+*Última actualización: 2026-05-14*  
 *Curso: IFCD0210-ironhack-desarrollo-de-aplicaciones-con-tecnologia-web*
