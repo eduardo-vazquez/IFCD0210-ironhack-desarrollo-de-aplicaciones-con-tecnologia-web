@@ -61,6 +61,9 @@ https://formsubmit.co
 ### PRIMERA PAGINA WEB DE LA HISTORIA
 https://info.cern.ch/hypertext/WWW/TheProject.html
 
+### JUEGO DE LOGICAS (Muy divertido)
+https://plays.org/circuitgates/
+
 ## OTROS RECURSOS
 
 ### Para aprender CSS
@@ -88,5 +91,5 @@ https://www.jesusda.com/docs/ebooks/introduccion_xhtml.pdf
 
 ---
 *Recopilación creada por: [Eduardo Vazquez](https://www.eduardo-vazquez.com)*  
-*Última actualización: 2026-05-14*  
+*Última actualización: 2026-05-15*  
 *Curso: IFCD0210-ironhack-desarrollo-de-aplicaciones-con-tecnologia-web*
